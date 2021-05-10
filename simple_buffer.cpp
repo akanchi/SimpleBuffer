@@ -180,6 +180,11 @@ int SimpleBuffer::pos()
     return _pos;
 }
 
+void SimpleBuffer::setPos(int pos)
+{
+    _pos = pos;
+}
+
 char *SimpleBuffer::data()
 {
     return (size() == 0) ? nullptr : &_data[0];

@@ -36,6 +36,7 @@ public:
     bool empty();
     int size();
     int pos();
+    void setPos(int pos);
     char *data();
     void clear();
     void set_data(int pos, const char *data, int len);
